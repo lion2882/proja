@@ -1,0 +1,73 @@
+
+
+<h1>Welcome to Reim page</h1>
+<select>
+<option>Food</option>
+<option>Travel</option>
+<option>Lagg</option>
+</select>
+
+<form id="loged">
+  <h2>Create form</h2>
+<input type="text" name="fname" id="y" placeholder="Enter Employer Name">
+<br>
+<input type="text" name="fID" id="y" placeholder="Enter Employer's ID"><br>
+<button>submit</button>
+<br>
+</form>
+<a routerLink="/">back to Login page</a>
+<br>
+
+<div>
+  <input type="text" [(ngModel)] ='name'>
+  <button (click)='datt()'>submit</button>
+  <br>
+  
+   <ul>
+  <li *ngFor="let item of movie">{{name}}</li> 
+  </ul> 
+  <!-- <span><h1>{{movie?.name}}</h1></span>  -->
+  </div>
+<br>
+<div>
+  <button (click)='postProfile()'>post</button>
+</div>
+<!-- <input type="text" (keyup)="onName($event)">
+<button (click)="getProfile($event)">Get profile</button>
+<br>
+<div *ngIf="profile">
+<span>{{name}}</span>
+
+</div> -->
+
+
+
+<!--   --------------------- -->
+
+<!-- <div *ngIf="movie">
+  <h1>{{file?.Title}}</h1>
+  <p>{{file?.Year}}</p>
+  <p>Starring: {{file?.Actors}}</p>
+  <p>{{file?.Plot}}</p>
+
+  <input 
+  [(ngModel)]="inputValue" 
+  type="text" 
+  id="input" 
+  (keydown.enter)="getProfile()">
+<button (click)="getProfile()">Submit</button>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
